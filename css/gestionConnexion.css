@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/*font-family: 'Poppins', sans-serif;*/
+
+/*
+bleu gris    : #6581A6
+bleu sombre  : #2B558C
+bleu noir  : #152C40
+bleu clair   : #4586BF
+orange       : #F28D52
+marron-rouge : #8C4A32
+*/
+html{
+  height: 100%;
+}
+
+body{
+  min-height: 100%;
+  position: relative;
+}
+
+body, html{
+  margin: 0;
+  padding: 0;
+  height:100%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #152C40;
+
+  position: relative;
+}
+header{
+   background-color: #F28D52;
+   height: 80px;
+   line-height: 80px;
+   font-size: 2em;
+}
+
+#message{
+  color: white;
+  display : block;
+
+  background-color: red;
+  margin-top: 2em;
+
+}
+.label{
+  color: #ffffff;
+}
+input{
+  width:50%;
+  border:solid 1px #152C40;
+  margin-bottom:10px;
+  padding:16px;
+  outline: none;
+  /*border-radius:6px;*/
+}
+.container-fluid{
+  margin-bottom: 1em;
+}
+/*Espace administration*/
+
+/*footer*/
+.footer{
+   background-color:#F28D52;
+   height: 20px;
+   position: absolute;
+   bottom:0;
+   left: 0;
+   right:0;
+}
